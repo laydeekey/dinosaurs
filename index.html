@@ -12,11 +12,13 @@ layout: default
 			<li>{{dino.name}}</li>
 		{% endif %}
 	{% endfor %}
-	
+</ul>
+
+<h2>Carnivores</h2>
+<ul>
 	{% for dino in site.pages %}
-		{% if dino.category == "carnivores" %}
+		{% if dino.category == "carnivore" %}
 			<li>{{dino.name}}</li>
 		{% endif %}
 	{% endfor %}
-	
 </ul>
